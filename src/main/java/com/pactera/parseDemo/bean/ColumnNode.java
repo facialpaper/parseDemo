@@ -1,0 +1,48 @@
+package com.pactera.parseDemo.bean;
+
+/**
+ * 
+ ************类说明**************
+ * 类名：ColumnNode
+ * 建类时间：2018年9月21日 上午10:20:00
+ * 类描述：字段节点
+ */
+public class ColumnNode {
+
+	private long id;
+	private String column;
+	private long tableId;
+	private String table;
+	private String db;
+	
+	public void setId(long id) {
+		this.id = id;
+	}
+	public void setColumn(String column) {
+		this.column = column;
+	}
+	public void setTableId(long tableId) {
+		this.tableId = tableId;
+	}
+	public void setTable(String table) {
+		this.table = table;
+	}
+	public void setDb(String db) {
+		this.db = db;
+	}
+	public long getId() {
+		return id;
+	}
+	public String getColumn() {
+		return column;
+	}
+	public long getTableId() {
+		return tableId;
+	}
+	public String getTable() {
+		return table;
+	}
+	public String getDb() {
+		return db;
+	}
+}
